@@ -4,8 +4,10 @@ title: rolley polleys
 ---
 <div class="marquee">
     {% for img in site.static_files %}
+        {% if image.path contains 'assets/images' %}
         <div class="imagebox">
             <img src="{{ img.path }}">
         </div>
+        {% endif %}
     {% endfor %}
 </div>
