@@ -6,7 +6,7 @@ title: rolley polleys
     {% for img in site.static_files %}
         {% if img.path contains 'assets/images' %}
         <div class="imagebox">
-            <img src="{{ img.path }}">
+            <img src="{{ site.baseurl }}{{ img.path }}">
         </div>
         {% endif %}
     {% endfor %}
