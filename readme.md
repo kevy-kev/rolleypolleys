@@ -7,3 +7,7 @@
 1. In OBS, create a browser source 4096px wide and capture the rolleypolley page
 2. Apply a filter to the source to scroll
 3. If updating CSS etc., make sure to refresh your browser cache (in source settings for OBS - to do this on chrome press ctrl-shift-R)
+
+### Notices
+- Rolley Polley images were drawn by twitter.com/rolleybun - this repo was uploaded for use on her content. Please do not claim the images as your own or modify them.
+- You are free to copy this Jekyll site for your own usage (with your own images, please!). The site runs with Jekyll on GitHub Pages
