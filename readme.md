@@ -4,5 +4,6 @@
 3. Navigate to https://kchou94.github.io/rolleypolleys/
 
 ## Creating marquee
-1. In OBS, create a browser source 3000px wide and capture the rolleypolley page
+1. In OBS, create a browser source 4096px wide and capture the rolleypolley page
 2. Apply a filter to the source to scroll
+3. If updating CSS etc., make sure to refresh your browser cache (in source settings for OBS - to do this on chrome press ctrl-shift-R)
