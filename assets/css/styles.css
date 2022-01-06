@@ -2,9 +2,14 @@ body {
     width: 4096px;
 }
 .marquee {
-    white-space: nowrap;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px 15px;
+}
+
+.imagebox {
+    margin: -25px -25px;
 }
 
 img {
@@ -12,7 +17,7 @@ img {
     animation-timing-function: steps(2);
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    width: 100%;
+    width: 80%;
 }
 
 @keyframes wiggle {
